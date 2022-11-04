@@ -4,6 +4,7 @@
   --color-1--: #FB8122;
   --color-2--: #1D2228;
   --color-3--: #E1E2E2;
+  --color-4--: #DE7C31;
 }
 
 * {
@@ -31,4 +32,16 @@ header {
   color: var(--color-1--, #FB8122);
   font-weight: 700;
   font-size: 1.8em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--color-1--, #FB8122);
+  font-weight: 500;
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+
+.navigation a:hover {
+  color: var(--color-4--, #DE7C31);
 }
