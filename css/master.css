@@ -15,7 +15,7 @@
 }
 
 header {
-  background-color: var(--color-3--, #E1E2E2);
+  background-color: var(--color-2--, #E1E2E2);
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -23,4 +23,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 200px;
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-1--, #FB8122);
+  font-weight: 700;
+  font-size: 1.8em;
 }
