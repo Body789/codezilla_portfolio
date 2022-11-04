@@ -2,8 +2,8 @@
 
 :root {
   --color-1--: #FB8122;
-  --color-2--: #1D2228;
-  --color-3--: #E1E2E2;
+  --color-3--: #1D2228;
+  --color-2--: #252B33;
   --color-4--: #DE7C31;
 }
 
@@ -44,4 +44,66 @@ header {
 
 .navigation a:hover {
   color: var(--color-4--, #DE7C31);
+}
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-3--, #E1E2E2);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2{
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+h2 span {
+  display: inline-block;
+  color: var(--color-1--, #DE7C31);
+  font-size: 3em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: white;
+  background-color: var(--color-1--, #DE7C31);
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  padding: 0.9375em 2.1875em;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: var(--color-4--, #FB8122);
+  transform: scale(1.1);
+}
+
+.social-icons a{
+  color: white;
+  font-size: 1.7em;
+  padding-right: 30px;
 }
