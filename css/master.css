@@ -209,3 +209,15 @@ h2 span {
   text-decoration: none;
   color: var(--color-1--);
 }
+
+.contact .icon {
+  font-size: 4.5em;
+}
+
+.contact .info h3{
+  color: black;
+}
+
+.contact .info p {
+  font-size: 1.5em;
+}
