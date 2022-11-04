@@ -221,3 +221,24 @@ h2 span {
 .contact .info p {
   font-size: 1.5em;
 }
+
+.footer {
+  background-color: var(--color-3--);
+  color: white;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: var(--color-1--);
+}
+
+.footer .social-icons a{
+  font-size: 1.3em;
+}
